@@ -588,7 +588,7 @@ public class JacocoCoverageRunner {
                     }
                   }
                 } catch (IOException e) {
-                  e.printStackTrace();
+                  // Exception handling removed
                   Runtime.getRuntime().halt(1);
                 }
               }
